@@ -1,0 +1,29 @@
+img{
+    width: 300px;
+    height: auto;
+}
+
+section{
+    width: 100%;
+}
+
+
+/*section header*/
+
+
+#head{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fa-arrow-left{
+    font-size: large;
+    margin-left: 5%;
+    margin-right: 20%;
+}
+
+.logo_header{
+    width: 50%;
+    margin-right: 25%;
+}
