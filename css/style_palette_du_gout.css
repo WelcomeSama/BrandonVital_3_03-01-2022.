@@ -63,6 +63,14 @@ img{
 
 /*setion menu*/
 
+#restaurant{
+    background-color: #faf9f8;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    position: absolute;
+    top: 32%;
+}
+
 #title{
     display: flex;
     align-items: center;
@@ -71,8 +79,6 @@ img{
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     font-size: large;
-    position: absolute;
-    top: 30%;
 }
 
 .first_title{

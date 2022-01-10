@@ -203,6 +203,16 @@ header{
     object-fit: cover;
 }
 
+/*.new{
+    background-color: #a6e5d5;
+    color: #2fa286;
+    position: relative;
+    bottom: 70%;
+    left: 70%;
+    width: 90px;
+    height: 30px;
+}*/
+
 .card_txt{
     display: flex;
     flex-direction: row;
