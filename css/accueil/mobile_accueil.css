@@ -1,16 +1,4 @@
 
-main{
-    font-family: 'Roboto', sans-serif;
-}
-section{
-    width: 100%;
-}
-
-a{
-    cursor: pointer;
-    color: black;
-    text-decoration: none;
-}
 
 /* section header*/
 
@@ -181,15 +169,18 @@ header{
 
 .card{
     width: 90%;
+    
 }
 
 .figure_card{
     display: flex;
     flex-direction: column;
     background-color: white;
+    position: relative;
     border-radius: 20px;
     width: 100%;
     height: 260px;
+    margin-top: 0;
     margin-left: 5%;
     margin-right: 5%;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -203,15 +194,18 @@ header{
     object-fit: cover;
 }
 
-/*.new{
+.new{
     background-color: #a6e5d5;
     color: #2fa286;
-    position: relative;
-    bottom: 70%;
-    left: 70%;
-    width: 90px;
-    height: 30px;
-}*/
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 15px;
+    right: 15px;
+    width: 20%;
+}
+
 
 .card_txt{
     display: flex;

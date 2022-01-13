@@ -1,0 +1,18 @@
+@import url("mobile_accueil.css") (max-width: 767px);
+@import url("tab_accueil.css") (min-width: 768px) AND (max-width: 991px);
+@import url("desktop_accueil.css") (min-width: 992px);
+
+
+
+main{
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    width: 100%;
+}
+
+a{
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
