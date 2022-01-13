@@ -67,7 +67,7 @@ img{
     background-color: #faf9f8;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    position: relative;
+    position: absolute;
     top: 32%;
 }
 
