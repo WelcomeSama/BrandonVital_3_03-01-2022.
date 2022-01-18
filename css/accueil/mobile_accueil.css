@@ -2,10 +2,6 @@
 
 /* section header*/
 
-header{
-    width: 100%;
-    height: auto;
-}
 
 
 .logo_header{
@@ -28,18 +24,6 @@ header{
     padding-bottom: 15%;
 }
 
-.first_title{
-    font-size: large;
-    font-weight: 1000;
-    padding-top: 5%;
-}
-
-.detail{
-    font-size: 100%;
-    font-weight: 300;
-    text-align: center;
-    margin-top: 0;
-}
 
 .where{
     display: flex;
@@ -58,12 +42,20 @@ header{
 }
 
 .first_title{
+    width: 60%;
+    font-size: x-large;
+    font-weight: 1000;
+    padding-top: 5%;
     margin-left: 20%;
     margin-right: 20%;
     text-align: center;
 }
 
 .detail{
+    font-size: 100%;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 0;
     margin-left: 10%;
     margin-right: 10%;
 }

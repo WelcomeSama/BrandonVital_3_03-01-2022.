@@ -17,3 +17,8 @@ a{
 section{
     width: 100%;
 }
+
+#head{
+    display: flex;
+    align-items: center;
+}

@@ -3,11 +3,6 @@
 /*section header*/
 
 
-#head{
-    display: flex;
-    align-items: center;
-}
-
 .head_nav{
     width: 100%;
     display: flex;
