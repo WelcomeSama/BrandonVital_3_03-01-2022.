@@ -5,11 +5,11 @@
 
 
 .logo_header{
-    width: 24%;
+    width: 14%;
     height: auto;
-    margin-left: 38%;
-    margin-top: 5%;
-    padding-bottom: 3%;
+    margin-left: 43%;
+    margin-top: 3%;
+    padding-bottom: 2%;
 }
 
 
@@ -21,7 +21,7 @@
     flex-direction: column;
     align-items: center;
     background-color: #f6f6f6;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
 }
 
 
@@ -33,19 +33,19 @@
     width: 100%;
     justify-content: center;
     border-top: 2px solid #dbdbdb;
-    font-size: 100%;
+    font-size: 80%;
 }
 
 .fa-map-marker-alt{
     margin-right: 3%;
-    font-size: x-large;
+    font-size: large;
     margin-bottom: 1%;
     margin-top: 1%;
 }
 
 .first_title{
     width: 80%;
-    font-size: xx-large;
+    font-size: x-large;
     font-weight: 1000;
     padding-top: 1%;
     margin-left: 20%;
@@ -87,6 +87,7 @@
     font-size: x-large;
     margin-left: 0;
     padding-left: 0;
+    margin-top: 0;
 }
 
 .stages{
@@ -95,6 +96,7 @@
     display: flex;
     flex-direction: row;
     margin-left: 4%;
+    margin-top: 0;
 }
 
 .stage{
@@ -240,23 +242,26 @@
     display: flex;
     flex-direction: column;
     margin-left: 10%;
-    padding-top: 5%;
+    padding-top: 2%;
     color: white;
-    padding-bottom: 10%;
+    padding-bottom: 2%;
     line-height: 5%;
 }
 
 .logo_footer{
-    width: 20%;
-    padding-bottom: 5%;
+    width: 10%;
+    height: auto;
+    margin-left: 40%;
+    padding-bottom: 4%;
 }
 
 .footer_select{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 50%;
+    width: 80%;
     line-height: 15px;
+    margin-left: 6%;
 }
 
 .proposition{
