@@ -98,17 +98,41 @@ section{
 
 
 /*animation menu validation
-faire petite coche + spinner + rognage points de suspension + prix decalage*/
+rognage points de suspension*/
 
 .card_menu{
     position: relative;
-    white-space: nowrap;
-    text-overflow: ellipsis;
     overflow: hidden;
 }
 
+.card_title{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card_menu:hover .check{
+    animation: slide-left 0.5s ease-out forwards;
+    visibility: visible;
+}
+
+.card_menu:hover .card_title{
+    background-color: aqua;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card_menu:hover .card_price{
+    animation: slide-left 0.5s ease-out forwards;
+    background-color: beige;
+}
+
+.card_menu:hover .fa-check-circle{
+    animation: spin 0.5s ease 0.3s forwards;
+}
+
 .check{
-    /*visibility: hidden;*/
     color: white;
     font-size: xx-large;
     display: flex;
@@ -117,10 +141,31 @@ faire petite coche + spinner + rognage points de suspension + prix decalage*/
     background-color: #a6e5d5;
     height: 100%;
     width: 20%;
+    visibility: hidden;
     position: absolute;
     top: 0%;
-    right: 0%;
+    right: -20%;
 }
+
+
+  @keyframes slide-left {
+    0% {
+              transform: translateX(0);
+    }
+    100% {
+              transform: translateX(-100%);
+    }
+  }
+  
+  @-webkit-keyframes spin {
+    0% {
+      -webkit-transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+
 
 
 /*animation heart*/
