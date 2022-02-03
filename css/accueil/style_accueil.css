@@ -30,7 +30,7 @@ header{
 
 
 /*animation button hover*/
-.btn_anim:hover{
+.btn_anim:hover , .btn_anim:active{
     transform: scale(1.05);
     transition-duration: 800ms;
     background: linear-gradient(355deg, rgba(30,0,36,1) 0%, rgba(201,0,255,1) 0%, rgba(201,10,242,1) 5%, rgba(204,66,166,1) 12%);
@@ -40,7 +40,7 @@ header{
 
 
 /*animation cards hover*/
-.card_anim:hover{
+.card_anim:hover , .card_anim:active{
     transform: scale(1.08);
     transition-duration: 400ms;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
@@ -154,7 +154,7 @@ header{
     color: black;
 } 
 
-.fa-heart:hover{
+.fa-heart:hover , .fa-heart:hover{
     transform: scale(1.3);
     background:linear-gradient(#9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
     -webkit-background-clip: text;
