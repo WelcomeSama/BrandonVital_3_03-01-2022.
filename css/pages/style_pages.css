@@ -97,19 +97,18 @@ section{
 
 
 
-/*animation menu validation
-rognage points de suspension*/
+/*animation menu validation*/
 
 .card_menu{
     position: relative;
     overflow: hidden;
 }
 
-.card_title{
+/*.card_title{
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-}
+}*/
 
 .card_menu:hover .check , .card_menu:active .check{
     animation: slide-left 0.5s ease-out forwards;
@@ -123,8 +122,14 @@ rognage points de suspension*/
     text-overflow: ellipsis;
 }
 
+.card_title h2{
+    overflow-x: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
 .card_menu:hover .card_title , .card_menu:active .card_title{
-    width: 65%;
+    width: 60%;
 }
 
 .card_menu:hover .card_price , .card_menu:active .card_price{

@@ -102,31 +102,27 @@ img{
     align-items: flex-end;
     background-color: white;
     width: 80%;
-    height: 70px;
+    height: 80px;
     margin-left: 10%;
     margin-bottom: 5%;
-    line-height: 5px;
     justify-content: space-between;
     border-radius: 20px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .card_title{
-    display: flex;
-    flex-direction: column;
-    font-size: 70%;
-    margin-left: 5%;
-    line-height: 10%;
     width: 80%;
-    height: 60px;
+    height: 100%;
     margin-left: 5%;
 }
 
+.card_title h2{
+    font-size: 100%;
+}
+
 .detail_menu{
-    display: flex;
     font-size: 14px;
     margin-top: 0;
-    line-height: 20px;
 }
 
 .card_price{
