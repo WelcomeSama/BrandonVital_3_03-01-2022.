@@ -104,12 +104,6 @@ section{
     overflow: hidden;
 }
 
-/*.card_title{
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}*/
-
 .card_menu:hover .check , .card_menu:active .check{
     animation: slide-left 0.5s ease-out forwards;
     visibility: visible;
